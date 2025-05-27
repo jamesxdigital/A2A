@@ -31,13 +31,18 @@ Choose 3-4 agents to showcase based on audience interest:
 9. **[Data Agent](agents/data-agent.md)** - Natural language business intelligence
 
 ### **Part 3: Live Demos (10-15 minutes)**
-Select 1-2 scenarios for live demonstration:
+Select 1-2 scenarios based on working agents:
 
-10. **[Executive Expense Management](scenarios/scenario-01-executive-expense.md)** - Multi-agent collaboration
-11. **[Sales Pipeline Analysis](scenarios/scenario-02-sales-pipeline.md)** - Data intelligence & visualization
-12. **[Content Creation Pipeline](scenarios/scenario-03-content-creation.md)** - Creative & analytical AI collaboration
-13. **[Travel Planning Demo](scenarios/scenario-04-travel-planning.md)** - Complex logistics & optimization
-14. **[Market Research Intelligence](scenarios/scenario-05-market-research.md)** - Comprehensive business intelligence
+#### **✅ RECOMMENDED SCENARIOS (Fully Working)**
+10. **[Executive Expense Management](scenarios/scenario-01-executive-expense.md)** - Currency + Expense agents ✅
+11. **[Travel Planning Demo](scenarios/scenario-04-travel-planning.md)** - Travel agent optimization ✅
+
+#### **⚠️ MODIFIED SCENARIOS (Partial Functionality)**  
+12. **[Sales Pipeline Analysis](scenarios/scenario-02-sales-pipeline.md)** - Currency agent only (skip Data/Image agents)
+13. **[Content Creation Pipeline](scenarios/scenario-03-content-creation.md)** - YouTube agent only (skip Image/Contact agents)
+
+#### **❌ NOT RECOMMENDED (Multiple Non-Working Agents)**
+14. **[Market Research Intelligence](scenarios/scenario-05-market-research.md)** - Requires YouTube, Data, Image, Contact agents
 
 ---
 
@@ -55,6 +60,61 @@ Each section includes professional infographics generated using advanced AI imag
 - `youtubeagent.png` - Video analytics platform
 - `travelplanningagent.png` - Travel optimization dashboard
 - `dataagent.png` - Business intelligence workflow
+
+---
+
+## ⚡ Agent Status & Testing Results
+
+Based on comprehensive testing, here's the current status of each agent:
+
+### ✅ **FULLY WORKING AGENTS (4/7)**
+
+#### **Currency Agent** (LangGraph + Google) - Port 10000
+- ✅ **Status**: Fully operational
+- ✅ **Capabilities**: Real-time exchange rates, multi-currency conversion
+- ✅ **Demo Ready**: Live API integration, no rate limits
+- 🎯 **Best For**: Financial demos, international business scenarios
+
+#### **Expense Agent** (Google ADK + Gemini) - Port 10002  
+- ✅ **Status**: Fully operational
+- ✅ **Capabilities**: Expense processing, categorization, approval workflow
+- ✅ **Demo Ready**: Automated processing with Google billing enabled
+- 🎯 **Best For**: Business process automation, compliance demos
+
+#### **YouTube Agent** (AG2 + OpenAI) - Port 10010
+- ✅ **Status**: Fully operational  
+- ✅ **Capabilities**: Video analysis, transcript extraction, content intelligence
+- ✅ **Demo Ready**: Smart content detection, professional responses
+- 🎯 **Best For**: Content strategy, market research, competitive analysis
+
+#### **Travel Agent** (Semantic Kernel + OpenAI) - Port 10020
+- ✅ **Status**: Fully operational
+- ✅ **Capabilities**: Trip planning, optimization, budget management
+- ✅ **Demo Ready**: Complex itinerary generation within constraints
+- 🎯 **Best For**: Logistics optimization, business travel management
+
+### ⚠️ **PARTIALLY WORKING AGENTS (0/7)**
+*None - agents either work fully or have significant issues*
+
+### ❌ **NON-WORKING AGENTS (3/7)**
+
+#### **Image Agent** (CrewAI + Google) - Port 10001
+- ❌ **Status**: Geographic restriction
+- ❌ **Issue**: "Image generation is not available in your country"
+- 🔧 **Workaround**: Use pre-generated infographics, discuss capabilities conceptually
+- 💡 **Demo Strategy**: Show existing visual assets, explain image generation potential
+
+#### **Contact Agent** (Marvin + OpenAI) - Port 10030
+- ❌ **Status**: Technical integration issues
+- ❌ **Issue**: Pydantic validation errors, TextPart string validation failures
+- 🔧 **Workaround**: Manually demonstrate contact extraction concepts
+- 💡 **Demo Strategy**: Focus on other agents, mention contact processing as future capability
+
+#### **Data Agent** (MindsDB) - Port 10006
+- ❌ **Status**: Technical integration issues  
+- ❌ **Issue**: Request payload validation errors, A2A protocol compatibility
+- 🔧 **Workaround**: Use static data examples, discuss BI capabilities conceptually
+- 💡 **Demo Strategy**: Emphasize working agents, position as expanding ecosystem
 
 ---
 
@@ -79,24 +139,32 @@ Each section includes professional infographics generated using advanced AI imag
 ## 🎯 Audience-Specific Recommendations
 
 ### **For Executive Audiences:**
-- Focus on: [Agents Overview](01-agents-overview.md) → [System Overview](02-our-multi-agent-system.md) → [Executive Expense Demo](scenarios/scenario-01-executive-expense.md)
-- Emphasize: Business value, ROI, strategic advantages
-- Duration: 20-25 minutes
+- **Focus on**: [Agents Overview](01-agents-overview.md) → [System Overview](02-our-multi-agent-system.md) → [Executive Expense Demo](scenarios/scenario-01-executive-expense.md)
+- **Working Demo**: Currency + Expense agents collaboration ✅
+- **Emphasize**: Business value, ROI, real-world deployment considerations
+- **Duration**: 20-25 minutes
+- **Success Rate**: High (uses only working agents)
 
 ### **For Technical Teams:**
-- Include: All agent deep dives + multiple scenarios
-- Emphasize: Architecture, integration, A2A protocol
-- Duration: 40-45 minutes
+- **Focus on**: Working agent deep dives + architecture discussion
+- **Working Demos**: [Executive Expense](scenarios/scenario-01-executive-expense.md) + [Travel Planning](scenarios/scenario-04-travel-planning.md)
+- **Emphasize**: A2A protocol, integration challenges, troubleshooting real issues
+- **Duration**: 40-45 minutes  
+- **Success Rate**: High (realistic technical discussion)
 
 ### **For Sales/Marketing:**
-- Focus on: [Content Creation](scenarios/scenario-03-content-creation.md) + [Sales Pipeline](scenarios/scenario-02-sales-pipeline.md)
-- Emphasize: Automation, efficiency, competitive advantage
-- Duration: 25-30 minutes
+- **Focus on**: [YouTube Agent](agents/youtube-agent.md) + [Travel Agent](agents/travel-agent.md) capabilities
+- **Modified Demo**: YouTube content analysis (skip image generation)
+- **Emphasize**: Content intelligence, automation potential, competitive advantage
+- **Duration**: 25-30 minutes
+- **Success Rate**: Medium (some limitations to acknowledge)
 
 ### **For Finance Teams:**
-- Focus on: [Currency Agent](agents/currency-agent.md) + [Expense Agent](agents/expense-agent.md) + [Executive Expense Demo](scenarios/scenario-01-executive-expense.md)
-- Emphasize: Compliance, accuracy, cost reduction
-- Duration: 20-25 minutes
+- **Focus on**: [Currency Agent](agents/currency-agent.md) + [Expense Agent](agents/expense-agent.md) + [Executive Expense Demo](scenarios/scenario-01-executive-expense.md)
+- **Working Demo**: Complete financial workflow ✅
+- **Emphasize**: Compliance, accuracy, cost reduction, real-time processing
+- **Duration**: 20-25 minutes
+- **Success Rate**: Very High (perfect match with working agents)
 
 ---
 
@@ -112,11 +180,18 @@ Each section includes professional infographics generated using advanced AI imag
 4. **Value** - Immediate ROI and competitive advantage
 
 ### **Demo Best Practices:**
-- Always test agents before presenting
-- Have backup scenarios ready
-- Explain what's happening as agents work
-- Highlight the collaboration between agents
-- Connect technical features to business value
+- **Test working agents only** - Focus on Currency, Expense, YouTube, Travel agents
+- **Acknowledge limitations honestly** - "This shows real-world deployment challenges"
+- **Emphasize working collaboration** - Currency + Expense agents demonstrate A2A protocol
+- **Have backup explanations** - For non-working agents, discuss capabilities conceptually
+- **Connect to business value** - Working agents show immediate ROI potential
+
+### **Realistic Demo Strategy:**
+1. **Start Strong**: Currency agent (always works, impressive live data)
+2. **Show Collaboration**: Expense processing with currency conversion
+3. **Demonstrate Intelligence**: YouTube content analysis or Travel planning
+4. **Address Challenges**: "3 agents have integration issues - this is realistic for enterprise deployments"
+5. **Focus on Value**: "4 working agents already provide significant business automation"
 
 ---
 
