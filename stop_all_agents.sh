@@ -35,6 +35,7 @@ stop_agent "expense-agent"
 stop_agent "youtube-agent"
 stop_agent "travel-agent"
 stop_agent "contact-agent"
+stop_agent "data-agent"
 
 # Also kill any remaining uv processes (backup cleanup)
 echo ""
