@@ -19,14 +19,14 @@
 *Copy this into the Demo UI:*
 
 ```
-I just returned from a business trip to London. I have several expenses to process:
+I just returned from a business trip to London on March 15-17, 2025. I have several expenses to process automatically:
 
-1. Taxi from Heathrow to hotel: £45
-2. Business dinner with 3 clients from TechCorp: £180
-3. Hotel stay for 2 nights: £320
-4. Return taxi to airport: £38
+1. Taxi from Heathrow to hotel: £45 (March 15, 2025) - Transportation for business travel
+2. Business dinner with 3 clients from TechCorp: £180 (March 16, 2025) - Client entertainment and relationship building
+3. Hotel stay for 2 nights: £320 (March 15-17, 2025) - Accommodation for business meetings
+4. Return taxi to airport: £38 (March 17, 2025) - Transportation for business travel
 
-Please process these expenses, convert to USD, categorize them properly, and update our financial records. Also identify and organize the client contact information from TechCorp for follow-up.
+Please automatically extract all expense details, convert to USD, categorize them properly, and update our financial records. Also identify and organize the client contact information from TechCorp for follow-up. I need this processed without manual data entry.
 ```
 
 ---
