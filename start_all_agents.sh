@@ -72,4 +72,10 @@ echo "🛑 To stop all agents, run: ./stop_all_agents.sh"
 echo ""
 echo "⏳ Waiting 10 seconds for all services to fully start..."
 sleep 10
-echo "�� Ready for demo!" 
+
+echo ""
+echo "🤖 Auto-registering agents with Demo UI..."
+python3 auto_add_agents.py
+
+echo ""
+echo "🎉 Ready for demo!" 
