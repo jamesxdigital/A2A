@@ -92,9 +92,54 @@ The Currency Agent is your intelligent financial assistant for real-time currenc
 
 ---
 
+## Global Financial Intelligence
+
+![Currency Agent](../assets/currencyagent.png)
+
+*Professional financial services infographic showcasing real-time currency conversion, global exchange rate monitoring, and intelligent financial analysis with bank-grade security and 99.9% uptime.*
+
+---
+
 ## Image Generation Prompt
 
 **Prompt for Infographic:**
 ```
-Create a professional infographic for a Currency Agent showing global currency conversion. Design a world map in the background with major currency symbols (USD, EUR, GBP, JPY, CNY) floating above their respective regions. In the center, show a modern digital interface displaying real-time exchange rates with green/red arrows indicating rate changes. Include flowing golden data streams connecting different currencies. Add icons for: calculator, trending charts, clock (real-time), and shield (security). Use a gold and blue color scheme with clean, modern typography. Show "Currency Agent" as the title with "Powered by LangGraph" subtitle. Make it look professional and trustworthy for financial services.
+Create a professional financial services infographic with a clean white background and sophisticated design. Image should be landscape orientation (16:9) for business presentations.
+
+TITLE: At the top, render "💱 CURRENCY AGENT" in large, bold text using a professional sans-serif font. Use a rich gold color (#d97706) for the title. Below it, add "Powered by LangGraph" in smaller blue text (#1e40af).
+
+WORLD MAP: In the background, show a subtle, light gray outline of a world map (#f3f4f6) that doesn't overpower the foreground elements.
+
+CURRENCY SYMBOLS: Position these exact currency symbols floating above their geographic regions on the map:
+- "USD $" over North America in green (#059669)
+- "EUR €" over Europe in blue (#2563eb) 
+- "GBP £" over United Kingdom in purple (#7c3aed)
+- "JPY ¥" over Japan in red (#dc2626)
+- "CNY ¥" over China in orange (#ea580c)
+
+CENTRAL INTERFACE: In the center-right area, create a modern digital dashboard showing:
+- Header text: "REAL-TIME EXCHANGE RATES"
+- Live rate display showing:
+  "1 USD = 0.85 EUR ↗ +0.02"
+  "1 GBP = 1.27 USD ↘ -0.01" 
+  "1 EUR = 165.43 JPY ↗ +1.23"
+- Use green arrows (↗) for increases, red arrows (↘) for decreases
+- Frame this in a sleek, rounded rectangle with subtle shadow
+
+GOLDEN DATA STREAMS: Draw flowing, curved golden lines (#fbbf24) connecting the currency symbols, representing real-time data flow. Add subtle directional arrows along these streams.
+
+FEATURE ICONS: In the left side, arrange these icons vertically with labels:
+- 🧮 "Instant Calculations"
+- 📈 "Trend Analysis" 
+- ⏰ "Real-Time Updates"
+- 🛡️ "Bank-Grade Security"
+
+PERFORMANCE METRICS: In the bottom section, create three metric boxes:
+- "< 200ms Response Time"
+- "99.9% Uptime"
+- "150+ Currencies"
+
+BOTTOM TAGLINE: At the bottom, include "Global Financial Intelligence • Powered by AI" in smaller italic text.
+
+Typography: Use clean, professional fonts throughout (similar to Inter or Roboto). Ensure all text is perfectly legible and properly spaced. Color scheme: Gold primary (#d97706), blue accents (#1e40af), with green/red for financial indicators. Maintain a trustworthy, enterprise-grade appearance suitable for financial institutions.
 ``` 

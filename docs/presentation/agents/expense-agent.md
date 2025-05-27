@@ -116,9 +116,76 @@ The Expense Agent is your intelligent financial assistant for automated expense 
 
 ---
 
+## Workflow Visualization
+
+![Expense Agent Workflow](../assets/expenenseagent.png)
+
+*Professional workflow diagram showing automated expense processing from receipt capture through AI analysis to instant approval, demonstrating 90% cost reduction and enterprise-grade compliance.*
+
+---
+
 ## Image Generation Prompt
 
 **Prompt for Infographic:**
 ```
-Create a professional infographic showing automated expense processing workflow. Design a horizontal flow: receipt/document on left, AI processing in center (with gears and checkmarks), and approved expense report on right. Include floating elements: dollar signs, receipts, mobile phone with camera, approval stamps, and charts. Show a modern business person holding a smartphone taking a photo of a receipt. Use green and blue corporate colors with clean, professional styling. Add icons for: camera (receipt capture), brain (AI processing), shield (compliance), and checkmark (approval). Title: "Expense Agent" with "Powered by Google ADK" subtitle. Make it look trustworthy and efficient for financial services.
+Create a professional financial workflow infographic with a clean white background and corporate design. Image should be landscape orientation (16:9) for business presentations.
+
+TITLE: At the top, render "💰 EXPENSE AGENT" in large, bold text using a professional sans-serif font. Use a rich green color (#059669) for the title. Below it, add "Powered by Google ADK" in smaller blue text (#1e40af).
+
+WORKFLOW (Left to Right):
+1. CAPTURE SECTION (Left):
+   - Show a modern business person (professional attire) holding a smartphone
+   - The phone screen displays a receipt being photographed
+   - Show an actual paper receipt below the phone with visible text:
+     "RESTAURANT RECEIPT
+     Business Lunch
+     Total: $45.00
+     Date: 03/15/2025"
+   - Label: "📱 Receipt Capture"
+   - Add floating camera icon with subtle animation lines
+
+2. AI PROCESSING (Center):
+   - Create a stylized AI brain with gear mechanisms inside
+   - Show data extraction lines pulling information from the receipt
+   - Include floating checkmarks (✅) around the brain
+   - Add these processing labels:
+     "OCR Text Extraction"
+     "Policy Validation" 
+     "Category Assignment"
+     "Approval Routing"
+   - Label: "🧠 AI Processing"
+
+3. APPROVAL SECTION (Right):
+   - Display a completed expense report showing:
+     "EXPENSE REPORT - APPROVED ✅
+     Employee: John Smith
+     Amount: $45.00 USD
+     Category: Business Meals
+     Status: APPROVED
+     Approval Time: 2.3 seconds"
+   - Show an official approval stamp
+   - Label: "✅ Instant Approval"
+
+FLOATING ELEMENTS: Around the workflow, add these elements:
+- Dollar signs ($) in green
+- Receipt icons
+- Approval stamps
+- Compliance shield icons
+- Chart/analytics icons
+- Mobile payment symbols
+
+FEATURE HIGHLIGHTS: In the corners, add these capability boxes:
+- "98% OCR Accuracy" (top left)
+- "5-10 Second Processing" (top right)
+- "Policy Compliance" (bottom left) 
+- "Audit Trail Complete" (bottom right)
+
+SECURITY BADGES: At the bottom, show these compliance indicators:
+- "🛡️ GDPR Compliant"
+- "🔒 SOX Certified" 
+- "🏦 Bank-Grade Security"
+
+BOTTOM TAGLINE: Include "Automated Expense Processing • 90% Cost Reduction • Enterprise Ready" in smaller text.
+
+Typography: Use clean, professional fonts throughout (similar to Inter or Roboto). Ensure all text is perfectly legible and properly spaced. Color scheme: Green primary (#059669), blue accents (#1e40af), with subtle gray backgrounds for data sections. Maintain a trustworthy, enterprise-grade appearance suitable for financial departments.
 ``` 

@@ -135,9 +135,82 @@ The Contact Extraction Agent is your intelligent data processing specialist, pow
 
 ---
 
+## Data Processing Visualization
+
+![Contact Extraction Agent](../assets/contactagent.png)
+
+*Comprehensive data processing infographic showing intelligent contact extraction, validation, and organization from multiple sources, with network analysis and business intelligence capabilities.*
+
+---
+
 ## Image Generation Prompt
 
 **Prompt for Infographic:**
 ```
-Create a professional infographic showing contact data extraction and organization. Design a central hub with various data sources flowing in: business cards, emails, documents, and websites. Show AI processing in the center with contact cards being organized and validated. Include a network diagram showing connections between contacts. Add floating elements: email icons, phone symbols, address markers, and social media logos. Show a modern professional reviewing organized contact data on a tablet. Use corporate blue and green colors with clean, modern styling. Add icons for: extraction (magnet), validation (checkmark), organization (folders), and networking (connected nodes). Title: "Contact Extraction Agent" with "Powered by Marvin" subtitle. Make it look efficient and trustworthy for business professionals.
+Create a professional business intelligence infographic with a clean white background and corporate design. Image should be landscape orientation (16:9) for business presentations.
+
+TITLE: At the top, render "👥 CONTACT EXTRACTION AGENT" in large, bold text using a professional sans-serif font. Use corporate blue (#1e40af) for the title. Below it, add "Powered by Marvin" in smaller green text (#059669).
+
+CENTRAL HUB: In the center, create a large circular hub labeled "AI PROCESSING ENGINE" with data streams flowing in and out.
+
+DATA SOURCES (Left Side): Show 4 distinct input sources with arrows pointing toward the central hub:
+1. BUSINESS CARDS: Stack of business cards with visible text:
+   "John Smith
+   CEO, Tech Corp
+   john@techcorp.com
+   +1-555-0123"
+
+2. EMAIL SIGNATURES: Email interface showing:
+   "Best regards,
+   Sarah Johnson
+   Marketing Director
+   sarah.j@company.com
+   LinkedIn: /in/sarahjohnson"
+
+3. DOCUMENTS: PDF/document icon with contact information visible
+
+4. WEBSITES: Browser window showing company directory page
+
+AI PROCESSING (Center): Show the central hub with these processing stages:
+- 🧲 "Data Extraction"
+- ✅ "Validation & Verification"  
+- 📁 "Smart Organization"
+- 🔗 "Relationship Mapping"
+
+OUTPUT SECTION (Right Side): Display organized contact cards showing:
+"CONTACT DATABASE
+✅ John Smith - CEO - Verified
+✅ Sarah Johnson - Marketing - Verified  
+✅ Mike Chen - CTO - Verified
+📊 Network Analysis: 47 connections
+🎯 Lead Score: High Priority"
+
+NETWORK DIAGRAM: In the bottom section, show a network visualization with connected nodes representing contacts, with lines showing relationships between them.
+
+FLOATING ELEMENTS: Around the composition, add these icons:
+- 📧 Email symbols
+- 📱 Phone icons
+- 📍 Address/location markers
+- 💼 LinkedIn logos
+- 🏢 Company building icons
+- 🔍 Search/discovery symbols
+
+FEATURE HIGHLIGHTS: In the corners, add these capability boxes:
+- "98% Extraction Accuracy" (top left)
+- "1000+ Contacts/Min" (top right)
+- "GDPR Compliant" (bottom left)
+- "CRM Integration" (bottom right)
+
+PROFESSIONAL CHARACTER: On the right side, show a modern business professional reviewing organized contact data on a tablet, with multiple contact cards displayed on the screen.
+
+DATA QUALITY METRICS: Show these validation indicators:
+"DATA QUALITY METRICS:
+• Email Verification: 95% valid
+• Phone Validation: 92% active
+• Address Standardization: 99% accurate
+• Duplicate Detection: 99.5% precision"
+
+BOTTOM TAGLINE: Include "Intelligent Contact Management • Data Quality Assurance • Business Intelligence" in smaller text.
+
+Typography: Use clean, professional fonts throughout (similar to Inter or Roboto). Ensure all text is perfectly legible and properly spaced. Color scheme: Corporate blue primary (#1e40af), green accents (#059669), with subtle gray backgrounds for data sections. Maintain a trustworthy, enterprise-grade appearance suitable for sales and marketing professionals.
 ``` 

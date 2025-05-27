@@ -142,9 +142,91 @@ The Enterprise Data Agent is your intelligent business intelligence powerhouse, 
 
 ---
 
+## Enterprise Analytics Platform
+
+![Enterprise Data Agent](../assets/dataagent.png)
+
+*Sophisticated enterprise data analytics platform showing AI-powered business intelligence, predictive analytics, and real-time insights from multiple data sources with natural language querying capabilities.*
+
+---
+
 ## Image Generation Prompt
 
 **Prompt for Infographic:**
 ```
-Create a sophisticated enterprise data analytics infographic. Design a central data hub with multiple data sources flowing in: databases, cloud services, spreadsheets, and APIs. Show AI processing in the center with various analytics outputs: charts, graphs, dashboards, and reports. Include a modern business analyst at a workstation with multiple monitors displaying different visualizations. Add floating elements: data streams, AI brain, prediction arrows, and insight lightbulbs. Use professional corporate colors: deep blue, silver, and white with data visualization accents. Include icons for: database (storage), brain (AI), chart (analytics), and shield (security). Title: "Enterprise Data Agent" with "Powered by MindsDB" subtitle. Make it look powerful and enterprise-ready for C-level executives.
+Create a sophisticated enterprise data analytics infographic with a professional gradient background transitioning from deep blue (#1e3a8a) at the top to silver (#64748b) at the bottom. Image should be landscape orientation (16:9) for C-level executive presentations.
+
+TITLE: At the top, render "📊 ENTERPRISE DATA AGENT" in large, bold white text with subtle glow effect. Below it, add "Powered by MindsDB" in smaller white text with blue accent.
+
+CENTRAL DATA HUB: In the center, create a large, glowing hexagonal hub labeled "AI ANALYTICS ENGINE" with pulsing data streams radiating outward.
+
+DATA SOURCES (Left Side): Show multiple input sources with flowing data streams:
+1. DATABASE SERVERS: Stack of server icons with labels:
+   "SQL Server, PostgreSQL, Oracle, MongoDB"
+
+2. CLOUD PLATFORMS: Cloud icons showing:
+   "AWS, Azure, Google Cloud, Snowflake"
+
+3. BUSINESS APPLICATIONS: App icons displaying:
+   "Salesforce, HubSpot, Microsoft 365"
+
+4. FILE SYSTEMS: Document icons showing:
+   "CSV, Excel, JSON, Parquet"
+
+AI PROCESSING (Center): Around the central hub, show these AI capabilities:
+- 🤖 "Auto-ML Models"
+- 📈 "Predictive Analytics"
+- 🔍 "Anomaly Detection"
+- 🧠 "Pattern Recognition"
+
+ANALYTICS OUTPUTS (Right Side): Display various visualization outputs:
+1. EXECUTIVE DASHBOARD showing:
+   "Q4 REVENUE FORECAST
+   Predicted: $2.4M (+15%)
+   Confidence: 92%
+   Key Drivers: Product A, Region West"
+
+2. REAL-TIME METRICS:
+   "Sales Pipeline: $1.2M
+   Conversion Rate: 23% ↗
+   Customer Churn Risk: 12 accounts"
+
+3. PREDICTIVE CHARTS: Line graphs showing upward trends
+
+BUSINESS ANALYST: In the bottom right, show a modern executive at a high-tech workstation with multiple curved monitors displaying:
+- Real-time dashboards
+- Predictive models
+- Performance metrics
+- Market analysis charts
+
+FLOATING ELEMENTS: Around the composition, add these enterprise icons:
+- 💾 Database cylinders
+- 🧠 AI brain symbols
+- 📊 Chart/graph icons
+- 🛡️ Security shields
+- 💡 Insight lightbulbs
+- ⚡ Real-time indicators
+- 🎯 Prediction arrows
+
+NATURAL LANGUAGE INTERFACE: Show a query box with example:
+"NATURAL LANGUAGE QUERY:
+'What were our sales last quarter compared to forecast?'
+→ Instant AI-powered insights"
+
+ENTERPRISE FEATURES: In the corners, add these capability badges:
+- "100+ Data Sources" (top left)
+- "Real-Time Processing" (top right)
+- "Enterprise Security" (bottom left)
+- "99.99% Uptime SLA" (bottom right)
+
+PERFORMANCE METRICS: Display these enterprise indicators:
+"ENTERPRISE METRICS:
+• Query Response: <1 second
+• Prediction Accuracy: 85-95%
+• Concurrent Users: 1000+
+• Data Processing: Petabyte scale"
+
+BOTTOM TAGLINE: Include "AI-Powered Business Intelligence • Enterprise Scale • Predictive Analytics" in white text.
+
+Typography: Use modern, executive-level fonts (similar to Inter or Roboto). Ensure all text is clearly readable against the gradient background. Color scheme: Deep blue and silver gradient, white text, with bright accent colors for data visualizations (green for positive metrics, blue for neutral, orange for alerts). Maintain a powerful, enterprise-ready appearance suitable for board-level presentations.
 ``` 

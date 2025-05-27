@@ -65,9 +65,48 @@ Just like a symphony orchestra, each agent has a specialized role:
 
 ---
 
+## Visual Overview
+
+![AI Agents Overview](assets/agentsoverview.png)
+
+*Professional infographic showing the evolution from traditional software to AI agents, highlighting the key advantages of intelligent, collaborative systems.*
+
+---
+
 ## Image Generation Prompt
 
 **Prompt for Infographic:**
 ```
-Create a modern, professional infographic showing the evolution from traditional software to AI agents. Show a split-screen design: Left side shows rigid, box-like traditional software with manual connections and human operators looking stressed. Right side shows dynamic, interconnected AI agents as glowing nodes in a network, with smooth flowing data streams between them. Include icons for: brain (intelligence), handshake (collaboration), lightning bolt (speed), upward arrow (scalability), and dollar sign (cost-effective). Use a blue and white color scheme with subtle gradients. Add the title "Traditional Software vs. AI Agents" at the top. Make it suitable for a business presentation with clean, modern typography.
+Create a professional business infographic with a clean white background and modern corporate design. The image should be in landscape orientation (16:9 aspect ratio) suitable for presentation slides.
+
+TITLE: At the very top, render the text "TRADITIONAL SOFTWARE vs. AI AGENTS" in bold, sans-serif typography (similar to Helvetica or Arial), dark navy blue color (#1a365d).
+
+LAYOUT: Split the image into two distinct halves with a subtle vertical divider line in light gray.
+
+LEFT SIDE - "TRADITIONAL SOFTWARE":
+- Header text: "TRADITIONAL SOFTWARE" in medium-sized text, red color (#dc2626)
+- Visual: Show 4-5 rigid, rectangular software boxes in muted gray colors, disconnected from each other
+- Include a stressed human figure (simple icon style) manually connecting systems with cables
+- Add these exact text labels with red X marks (❌):
+  • "Rigid, rule-based"
+  • "Requires exact instructions" 
+  • "Single-purpose tools"
+  • "Manual integration"
+- Show tangled connection lines between boxes
+- Color palette: Grays, muted blues, with red accent for problems
+
+RIGHT SIDE - "AI AGENTS":
+- Header text: "AI AGENTS" in medium-sized text, green color (#059669)
+- Visual: Show 6-7 hexagonal nodes in bright, modern colors (blue, purple, teal, orange) connected by smooth, flowing data streams
+- Include these exact text labels with green checkmarks (✅):
+  • "Adaptive, intelligent"
+  • "Understands natural language"
+  • "Multi-skilled workers" 
+  • "Autonomous collaboration"
+- Show elegant curved connection lines with subtle animation-style arrows
+- Add floating icons: brain (🧠), handshake (🤝), lightning bolt (⚡), upward arrow (📈), dollar sign (💰)
+
+BOTTOM: Include subtitle text "The Future of Business Automation" in smaller, italic text, centered.
+
+Typography: Use clean, professional fonts throughout. Ensure all text is perfectly readable and properly kerned. Color scheme: Navy blue headers, green/red for comparisons, with bright accent colors for the AI agent nodes.
 ``` 

@@ -130,9 +130,71 @@ The Travel Planning Agent is your intelligent travel companion, powered by Micro
 
 ---
 
+## Intelligent Travel Planning
+
+![Travel Planning Agent](../assets/travelplanningagent.png)
+
+*Inspiring travel infographic demonstrating AI-powered trip planning with global coverage, intelligent optimization, and comprehensive business travel solutions, showcasing 25% cost savings and 99.5% booking accuracy.*
+
+---
+
 ## Image Generation Prompt
 
 **Prompt for Infographic:**
 ```
-Create an inspiring travel infographic showing AI-powered trip planning. Design a world map background with flight paths connecting major cities. In the center, show a modern traveler with a smartphone displaying an AI travel assistant interface. Include floating elements: airplanes, hotels, calendars, currency symbols, and location pins. Show a timeline at the bottom with trip planning stages: research, booking, travel, experience. Use travel-inspired colors: sky blue, sunset orange, and white. Add icons for: globe (destinations), calendar (planning), wallet (budget), and star (experiences). Title: "Travel Planning Agent" with "Powered by Semantic Kernel" subtitle. Make it look adventurous and professional for business travelers.
+Create an inspiring travel infographic with a gradient background transitioning from sky blue (#0ea5e9) at the top to sunset orange (#f97316) at the bottom, with white clouds scattered throughout. Image should be landscape orientation (16:9) for business travel presentations.
+
+TITLE: At the top, render "✈️ TRAVEL PLANNING AGENT" in large, bold white text with subtle shadow effect. Below it, add "Powered by Semantic Kernel" in smaller white text.
+
+WORLD MAP: In the background, show a stylized world map in light blue outline with major cities marked by glowing dots.
+
+FLIGHT PATHS: Draw curved flight path lines connecting these major business destinations:
+- New York ↔ London
+- London ↔ Tokyo  
+- Tokyo ↔ Singapore
+- Singapore ↔ Sydney
+Use dotted white lines with small airplane icons (✈️) moving along the paths.
+
+CENTRAL CHARACTER: In the center-left, show a modern business traveler (professional attire, rolling suitcase) holding a smartphone. The phone screen displays:
+"AI TRAVEL ASSISTANT
+✅ Flight: NYC → LHR
+✅ Hotel: London Marriott  
+✅ Meeting: 2:00 PM
+✅ Return: Friday 6:30 PM
+Budget: $2,847 / $3,000"
+
+FLOATING ELEMENTS: Around the traveler, add these travel icons:
+- 🏨 Hotel buildings
+- 📅 Calendar pages showing dates
+- 💰 Currency symbols (USD, EUR, GBP)
+- 📍 Location pins on map cities
+- 🎯 Meeting/conference icons
+- 🍽️ Restaurant symbols
+
+PLANNING TIMELINE: At the bottom, create a horizontal timeline showing:
+"RESEARCH → BOOKING → TRAVEL → EXPERIENCE"
+With icons and time estimates:
+- 🔍 "Research: 2 mins"
+- 💳 "Booking: 30 secs"  
+- ✈️ "Travel: Optimized"
+- ⭐ "Experience: 5-star"
+
+FEATURE HIGHLIGHTS: In the corners, add these capability badges:
+- 🌍 "Global Coverage" (top left)
+- ⚡ "Instant Planning" (top right)
+- 💰 "25% Cost Savings" (bottom left)
+- 🎯 "99.5% Accuracy" (bottom right)
+
+SMART FEATURES: On the right side, show these AI capabilities:
+"INTELLIGENT FEATURES:
+• Real-time price monitoring
+• Weather-based recommendations  
+• Cultural insights & tips
+• Multi-city optimization
+• Expense integration
+• 24/7 travel support"
+
+BOTTOM TAGLINE: Include "Intelligent Travel Planning • Global Business Solutions • AI-Powered Efficiency" in white text.
+
+Typography: Use modern, travel-friendly fonts (similar to Poppins or Montserrat). Ensure all text is clearly readable against the gradient background. Color scheme: Sky blue and sunset orange gradient, white text and icons, with gold accents for premium features. Maintain an adventurous yet professional appearance suitable for business travelers and corporate travel departments.
 ``` 

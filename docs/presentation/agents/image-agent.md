@@ -107,9 +107,66 @@ The Image Generation Agent is your creative powerhouse for visual content creati
 
 ---
 
+## Creative Workflow Visualization
+
+![Image Generation Agent](../assets/imageagent.png)
+
+*Vibrant creative workflow infographic demonstrating AI-powered image generation from natural language input through creative processing to professional visual assets, showcasing unlimited creative potential and brand consistency.*
+
+---
+
 ## Image Generation Prompt
 
 **Prompt for Infographic:**
 ```
-Create a vibrant, creative infographic showing an AI image generation process. Show a flow from left to right: start with a text bubble containing "Create a modern office", then show AI brain processing with colorful neural network patterns, and end with multiple generated images floating out (office scenes, people, graphics). Include creative elements like paint brushes, color palettes, design tools, and sparkles. Use a rainbow gradient background with purple and pink accents. Add icons for: creativity (lightbulb), speed (lightning), quality (diamond), and variety (multiple squares). Title: "Image Generation Agent" with "Powered by CrewAI" subtitle. Make it look artistic and inspiring for creative professionals.
+Create a vibrant, artistic infographic with a dynamic gradient background transitioning from deep purple (#7c3aed) on the left to bright pink (#ec4899) on the right. Image should be landscape orientation (16:9) for creative presentations.
+
+TITLE: At the top, render "🎨 IMAGE GENERATION AGENT" in large, bold white text with a subtle glow effect. Below it, add "Powered by CrewAI" in smaller white text with purple accent.
+
+WORKFLOW (Left to Right):
+1. INPUT SECTION (Left): 
+   - Show a speech bubble containing the exact text: "Create a modern office with diverse team"
+   - Add a human silhouette icon next to it
+   - Label: "Natural Language Input"
+
+2. AI PROCESSING (Center):
+   - Create a stylized AI brain with colorful neural network patterns
+   - Show flowing data streams in rainbow colors connecting input to brain
+   - Add swirling, magical sparkles around the brain
+   - Include floating creative tools: paint brush, color palette, pencil, design ruler
+   - Label: "AI Creative Processing"
+
+3. OUTPUT SECTION (Right):
+   - Display 4-6 small generated image thumbnails floating out:
+     * Modern office interior
+     * Diverse business team
+     * Marketing graphics
+     * Product mockups
+     * Social media posts
+   - Show these images with subtle drop shadows and slight rotation
+   - Label: "Generated Visual Assets"
+
+FEATURE HIGHLIGHTS: Around the workflow, add these capability badges:
+- 💡 "Creative Intelligence" (top left)
+- ⚡ "10-30 Second Generation" (top right)  
+- 💎 "4K Quality Output" (bottom left)
+- 🎯 "Brand Consistency" (bottom right)
+
+CREATIVE ELEMENTS: Scatter these artistic elements throughout:
+- Floating paint drops in various colors
+- Sparkles and stars
+- Color swatches
+- Design grid lines
+- Bezier curve handles
+- Typography samples
+
+STYLE SHOWCASE: In the bottom section, show 4 style examples:
+- "Corporate" (clean, professional imagery)
+- "Creative" (artistic, innovative visuals)  
+- "Technical" (diagrams, schematics)
+- "Marketing" (engaging, brand-focused)
+
+BOTTOM TAGLINE: Include "Transform Ideas into Visual Reality • Unlimited Creative Potential" in white text.
+
+Typography: Use modern, creative fonts (similar to Poppins or Montserrat). Ensure all text is clearly readable against the colorful background. Apply subtle glow effects and shadows to enhance the magical, creative atmosphere while maintaining professional quality.
 ``` 

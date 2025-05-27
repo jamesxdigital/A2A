@@ -120,9 +120,77 @@ The YouTube Analysis Agent is your intelligent video content analyst, powered by
 
 ---
 
+## Video Intelligence Analytics
+
+![YouTube Analysis Agent](../assets/youtubeagent.png)
+
+*Dynamic data-driven infographic showcasing YouTube video analysis capabilities including transcript extraction, sentiment analysis, trending topics, and competitive intelligence for marketing professionals and content strategists.*
+
+---
+
 ## Image Generation Prompt
 
 **Prompt for Infographic:**
 ```
-Create a dynamic infographic showing YouTube video analysis process. Design with a large YouTube play button in the center, surrounded by floating video thumbnails. Show data streams flowing from videos into AI analysis nodes with charts, graphs, and text analytics. Include elements like: trending arrows, sentiment indicators (happy/sad faces), word clouds, and performance metrics. Add a modern analyst character with headphones reviewing data on multiple screens. Use YouTube's red color scheme with white and dark accents. Include icons for: video camera, analytics charts, trending topics, and insights (lightbulb). Title: "YouTube Analysis Agent" with "Powered by AG2" subtitle. Make it look cutting-edge and data-driven for marketing professionals.
+Create a dynamic, data-driven infographic with YouTube's signature red (#ff0000) as the primary color, complemented by white background and dark gray accents (#374151). Image should be landscape orientation (16:9) for marketing presentations.
+
+TITLE: At the top, render "📺 YOUTUBE ANALYSIS AGENT" in large, bold text. Use YouTube red (#ff0000) for the title. Below it, add "Powered by AG2" in smaller dark gray text.
+
+CENTRAL ELEMENT: In the center, create a large YouTube play button (red triangle in white circle) with subtle glow effect.
+
+VIDEO THUMBNAILS: Surround the play button with 6-8 floating video thumbnails showing:
+- Tech review videos
+- Business presentations  
+- Marketing content
+- Educational videos
+Each thumbnail should have realistic video titles like:
+"AI Trends 2025 - 2.3M views"
+"Digital Marketing Tips - 890K views"
+"Business Strategy Guide - 1.1M views"
+
+DATA FLOW: Show flowing data streams (in light blue #3b82f6) connecting videos to analysis nodes. Include these specific analysis outputs:
+
+1. TRANSCRIPT ANALYSIS (Top Left):
+   - Show text extraction with sample transcript:
+     "Welcome to our channel... today we're discussing..."
+   - Label: "Speech-to-Text Conversion"
+
+2. SENTIMENT ANALYSIS (Top Right):
+   - Display sentiment indicators: 😊 Positive 75%, 😐 Neutral 20%, 😞 Negative 5%
+   - Label: "Audience Sentiment"
+
+3. TREND ANALYSIS (Bottom Left):
+   - Show trending topics word cloud: "AI", "Marketing", "Business", "Technology"
+   - Add trending arrows (↗) in green
+   - Label: "Trending Topics"
+
+4. PERFORMANCE METRICS (Bottom Right):
+   - Display analytics dashboard:
+     "Engagement Rate: 8.5%
+     Watch Time: 4:32 avg
+     Growth Rate: +15%"
+   - Label: "Performance Analytics"
+
+ANALYST CHARACTER: In the right side, show a modern data analyst wearing headphones, sitting at a workstation with multiple monitors displaying:
+- YouTube analytics dashboards
+- Trend graphs
+- Competitor analysis charts
+
+FLOATING ELEMENTS: Around the composition, add these icons:
+- 📹 Video camera icons
+- 📊 Analytics chart symbols  
+- 💡 Insight lightbulbs
+- 🔥 Trending fire icons
+- 👁️ View count eyes
+- 💬 Comment bubbles
+
+COMPETITIVE INTELLIGENCE: In the bottom section, show a competitor analysis table:
+"COMPETITOR ANALYSIS
+Channel A: 2.1M subs, 15% growth
+Channel B: 890K subs, 8% growth  
+Channel C: 1.5M subs, 12% growth"
+
+BOTTOM TAGLINE: Include "Video Intelligence • Competitive Analysis • Content Strategy" in smaller text.
+
+Typography: Use modern, tech-focused fonts (similar to Roboto or Open Sans). Ensure all text is clearly readable. Color scheme: YouTube red primary, white background, blue data streams, with green/red for performance indicators. Maintain a cutting-edge, data-driven appearance suitable for marketing professionals and content strategists.
 ``` 

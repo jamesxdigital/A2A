@@ -83,9 +83,52 @@ We've built a **complete enterprise AI ecosystem** with 7 specialized agents wor
 
 ---
 
+## System Architecture
+
+![Multi-Agent AI Ecosystem](assets/ourmultiagentsystem.png)
+
+*Sophisticated network diagram showcasing our 7-agent ecosystem with the A2A protocol at its core, demonstrating enterprise-ready multi-vendor AI collaboration.*
+
+---
+
 ## Image Generation Prompt
 
 **Prompt for Infographic:**
 ```
-Create a sophisticated network diagram showing 7 interconnected AI agents in a circular formation around a central hub labeled "A2A Protocol". Each agent should be represented as a modern, glowing hexagonal node with distinct colors: Currency (gold), Image (purple), Expense (green), YouTube (red), Travel (blue), Contact (orange), Data (teal). Show flowing data streams between all agents with animated-style arrows. Include vendor logos subtly: Google, OpenAI, Microsoft, MindsDB. Add floating icons around the network: dollar signs, images, charts, videos, planes, contacts, databases. Use a dark background with bright, professional colors. Title: "Multi-Agent AI Ecosystem" at the top. Make it look futuristic and enterprise-ready.
+Create a sophisticated enterprise-grade network diagram on a dark navy background (#0f172a) with a futuristic, professional aesthetic. Image should be landscape orientation (16:9) suitable for executive presentations.
+
+TITLE: At the top, render "MULTI-AGENT AI ECOSYSTEM" in large, bold, white text with subtle blue glow effect. Below it, add "7 Specialized Agents • Universal A2A Protocol • Enterprise Ready" in smaller white text.
+
+CENTRAL HUB: In the exact center, create a large hexagonal node with the text "A2A PROTOCOL" in bold white letters. This hub should have a bright blue glow (#3b82f6) and subtle pulsing animation lines radiating outward.
+
+AGENT NODES: Arrange exactly 7 hexagonal agent nodes in a perfect circle around the central hub. Each node should be clearly labeled with both icon and text:
+
+1. "💱 CURRENCY AGENT" - Gold color (#fbbf24) with "LangGraph" subtitle
+2. "🎨 IMAGE AGENT" - Purple color (#a855f7) with "CrewAI" subtitle  
+3. "💰 EXPENSE AGENT" - Green color (#10b981) with "Google ADK" subtitle
+4. "📺 YOUTUBE AGENT" - Red color (#ef4444) with "AG2" subtitle
+5. "✈️ TRAVEL AGENT" - Blue color (#3b82f6) with "Semantic Kernel" subtitle
+6. "👥 CONTACT AGENT" - Orange color (#f97316) with "Marvin" subtitle
+7. "📊 DATA AGENT" - Teal color (#14b8a6) with "MindsDB" subtitle
+
+CONNECTIONS: Draw elegant, curved data streams connecting each agent to the central hub and to each other, creating a web-like network. Use flowing lines with directional arrows and subtle glow effects in white/blue.
+
+VENDOR LOGOS: In the four corners, subtly place small, semi-transparent logos:
+- Top left: "Google" text in Google colors
+- Top right: "OpenAI" text in black
+- Bottom left: "Microsoft" text in blue
+- Bottom right: "MindsDB" text in green
+
+FLOATING ELEMENTS: Around the network, add these floating icons with subtle glow:
+- Dollar signs ($) near Currency Agent
+- Image/photo icons near Image Agent  
+- Receipt/document icons near Expense Agent
+- Play button/video icons near YouTube Agent
+- Airplane/globe icons near Travel Agent
+- Contact/people icons near Contact Agent
+- Chart/graph icons near Data Agent
+
+BOTTOM TEXT: At the bottom, include "Production-Ready • Multi-Vendor • Scalable Architecture" in smaller white text.
+
+Typography: Use modern, clean sans-serif fonts (similar to Inter or Roboto). Ensure all text is crisp and readable against the dark background. Apply subtle glow effects to enhance the futuristic appearance while maintaining professional credibility.
 ``` 

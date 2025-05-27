@@ -19,19 +19,36 @@ This directory contains comprehensive presentation materials for demonstrating A
 8. **[Contact Extraction Agent](agents/contact-agent.md)** - Data processing and organization (Marvin)
 9. **[Enterprise Data Agent](agents/data-agent.md)** - Business intelligence platform (MindsDB)
 
-## 🎨 Image Generation Guide
+## 🎨 Advanced Image Generation Guide
 
-Each document includes a specific **Image Generation Prompt** at the bottom. These prompts are designed for AI image generation tools like:
+Each document includes a **highly detailed Image Generation Prompt** specifically optimized for **OpenAI's GPT-4o Image Generation** (March 2025 release). These prompts leverage 4o's advanced capabilities including:
+
+### ✨ **4o Advanced Features:**
+- **Precise Text Rendering**: Exact text content, typography, and formatting
+- **Complex Instruction Following**: 10-20+ coordinated objects and elements
+- **Professional Design**: Enterprise-grade layouts with specific color codes
+- **Realistic Business Data**: Authentic metrics, dashboards, and interfaces
+
+### 🛠️ **Recommended Tools:**
+- **OpenAI GPT-4o** (Primary recommendation - optimized for these prompts)
 - DALL-E 3
 - Midjourney
 - Stable Diffusion
 - Adobe Firefly
 
-### How to Use the Prompts:
-1. Copy the prompt text from any document
-2. Paste into your preferred AI image generator
-3. Generate the infographic
-4. Use alongside the markdown content for presentations
+### 📋 **How to Use the Enhanced Prompts:**
+1. **Copy the complete prompt** from any document (including all formatting details)
+2. **Paste into OpenAI's image generator** for best results
+3. **Specify landscape orientation** (16:9) if the tool allows
+4. **Generate multiple variations** to find the perfect match
+5. **Use alongside markdown content** for professional presentations
+
+### 🎯 **Prompt Features:**
+- **Exact text content** to be rendered in images
+- **Specific color codes** (hex values) for brand consistency
+- **Detailed layout specifications** for professional appearance
+- **Typography guidelines** for readability
+- **Business-appropriate visual elements** for credibility
 
 ## 📊 Presentation Flow Recommendations
 
@@ -87,18 +104,38 @@ Each document includes a specific **Image Generation Prompt** at the bottom. The
 
 ## 🎨 Visual Assets Needed
 
-Based on the image prompts, you'll want to generate:
-1. **Overview infographic** - Traditional software vs. AI agents
-2. **System architecture diagram** - 7-agent network visualization
-3. **Individual agent infographics** - One for each of the 7 agents
+Based on the enhanced image prompts, you'll want to generate these **9 professional infographics**:
+
+### 📊 **Core Presentation Graphics:**
+1. **AI Agents Overview** - Traditional software vs. AI agents comparison
+2. **Multi-Agent System** - 7-agent network architecture diagram
+
+### 🤖 **Individual Agent Infographics:**
+3. **Currency Agent** - Global financial intelligence dashboard
+4. **Image Generation Agent** - Creative workflow visualization
+5. **Expense Agent** - Automated processing workflow
+6. **YouTube Analysis Agent** - Video intelligence analytics
+7. **Travel Planning Agent** - Intelligent trip planning interface
+8. **Contact Extraction Agent** - Data processing and organization
+9. **Enterprise Data Agent** - Business intelligence platform
+
+### 🎯 **Expected Quality:**
+- **Enterprise-grade design** suitable for C-level presentations
+- **Realistic business data** and metrics for credibility
+- **Professional color schemes** with consistent branding
+- **High-resolution output** (4K quality when possible)
+- **Text-heavy infographics** showcasing 4o's text rendering capabilities
 
 ## 📋 Presentation Checklist
 
 ### Before the Meeting:
-- [ ] Generate all infographics using the provided prompts
-- [ ] Test the live demo system (`./start_all_agents.sh`)
-- [ ] Prepare backup slides in case of technical issues
-- [ ] Review audience background and adjust technical depth
+- [ ] **Generate all 9 infographics** using OpenAI GPT-4o for best results
+- [ ] **Verify text rendering quality** - ensure all metrics and labels are clear
+- [ ] **Test color consistency** across all generated images
+- [ ] **Test the live demo system** (`./start_all_agents.sh`)
+- [ ] **Prepare backup slides** in case of technical issues
+- [ ] **Review audience background** and adjust technical depth
+- [ ] **Print high-resolution versions** if presenting in person
 
 ### During the Presentation:
 - [ ] Start with business value, not technical details
@@ -119,6 +156,27 @@ Based on the image prompts, you'll want to generate:
 - **A2A Protocol Specification**: Technical standards documentation
 - **Agent Status Dashboard**: Real-time system monitoring
 
+## 🚀 **Image Generation Tips for Best Results**
+
+### 💡 **OpenAI GPT-4o Optimization:**
+- **Use the complete prompt** - don't truncate the detailed instructions
+- **Specify "landscape orientation 16:9"** for presentation compatibility
+- **Request "high resolution"** for professional quality
+- **Generate 2-3 variations** and select the best one
+- **Check text readability** - 4o excels at rendering clear, professional text
+
+### 🎨 **Quality Assurance:**
+- **Verify all text elements** are rendered correctly and legibly
+- **Check color consistency** matches the specified hex codes
+- **Ensure professional appearance** suitable for business presentations
+- **Confirm all data/metrics** are realistic and appropriate
+
+### 📱 **Alternative Tools:**
+If using other image generators, you may need to:
+- **Simplify complex prompts** for tools with lower instruction-following capability
+- **Focus on visual elements** rather than detailed text rendering
+- **Generate text separately** and overlay in design software if needed
+
 ---
 
-*This presentation package demonstrates a complete enterprise AI agent ecosystem, showcasing the future of business automation through intelligent, collaborative AI agents.*
+*This presentation package demonstrates a complete enterprise AI agent ecosystem, showcasing the future of business automation through intelligent, collaborative AI agents. Enhanced with cutting-edge image generation prompts optimized for OpenAI's GPT-4o capabilities.*
