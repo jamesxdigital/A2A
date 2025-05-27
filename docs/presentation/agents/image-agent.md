@@ -1,172 +1,139 @@
-# 🎨 Image Generation Agent (CrewAI)
-
-## Overview
-The Image Generation Agent is your creative powerhouse for visual content creation. Built on CrewAI framework with Google's advanced AI models, it transforms ideas into stunning visuals for marketing, presentations, and business communications.
-
-## What It Does
-
-### 🎨 Creative Content Generation
-- **Text-to-Image**: Convert descriptions into high-quality visuals
-- **Style Adaptation**: Match brand guidelines and visual identity
-- **Concept Visualization**: Turn abstract ideas into concrete images
-- **Multi-Format Output**: Generate images in various sizes and formats
-
-### 🖼️ Business Visual Assets
-- **Marketing Materials**: Banners, social media posts, advertisements
-- **Presentation Graphics**: Charts, diagrams, infographics
-- **Product Mockups**: Visualize concepts before development
-- **Brand Assets**: Logos, icons, visual elements
-
-### 🎯 Intelligent Design
-- **Context Understanding**: Interprets business requirements
-- **Brand Consistency**: Maintains visual coherence across assets
-- **Audience Targeting**: Adapts style for specific demographics
-- **Quality Optimization**: Ensures professional-grade output
-
-## Technical Implementation
-
-### 🏗️ Architecture
-- **Framework**: CrewAI for collaborative AI workflows
-- **AI Model**: Google Imagen and Gemini for visual generation
-- **Processing**: Advanced prompt engineering and style transfer
-- **Protocol**: A2A-compliant for seamless integration
-
-### 🔧 Key Features
-- **Natural Language Input**: "Create a modern office infographic"
-- **Style Parameters**: Control colors, themes, and aesthetics
-- **Batch Generation**: Create multiple variations simultaneously
-- **Quality Control**: Automatic enhancement and optimization
-
-## Business Use Cases
-
-### 📢 Marketing Campaigns
-**Scenario**: Launch campaign for new product
-- **Input**: "Create social media visuals for eco-friendly water bottle"
-- **Process**: Generates multiple designs with brand colors
-- **Output**: Complete visual campaign ready for deployment
-
-### 📊 Data Visualization
-**Scenario**: Executive presentation needs visual impact
-- **Input**: Sales data and key metrics
-- **Process**: Creates engaging charts and infographics
-- **Output**: Professional presentation graphics
-
-### 🌐 Website Content
-**Scenario**: Company website needs fresh visuals
-- **Input**: "Hero images for technology consulting firm"
-- **Process**: Generates modern, professional imagery
-- **Output**: Web-ready visual assets
-
-## Integration Examples
-
-### 🤝 Multi-Agent Workflows
-**With Data Agent**: Visualize business intelligence data
-**With Travel Agent**: Create destination and itinerary visuals
-**With Contact Agent**: Generate profile images and organizational charts
-
-### 📱 API Capabilities
-```json
-{
-  "method": "generate_image",
-  "params": {
-    "prompt": "Modern office meeting room with diverse team",
-    "style": "professional",
-    "dimensions": "1920x1080",
-    "brand_colors": ["#0066CC", "#FFFFFF"]
-  }
-}
-```
-
-## Creative Capabilities
-
-### 🎨 Style Varieties
-- **Corporate**: Professional, clean, business-appropriate
-- **Creative**: Artistic, innovative, eye-catching
-- **Technical**: Diagrams, schematics, technical illustrations
-- **Marketing**: Engaging, persuasive, brand-focused
-
-### 🖌️ Output Formats
-- **High Resolution**: Up to 4K quality for print materials
-- **Web Optimized**: Compressed for fast loading
-- **Vector Graphics**: Scalable illustrations and logos
-- **Animated**: Simple animations and GIFs
-
-## Performance Metrics
-
-### ⚡ Generation Speed
-- **Standard Images**: 10-30 seconds per image
-- **Complex Scenes**: 30-60 seconds per image
-- **Batch Processing**: 5-10 images simultaneously
-- **Quality Levels**: Multiple resolution options
-
-### 🎯 Quality Standards
-- **Resolution**: Up to 2048x2048 pixels
-- **Color Accuracy**: Professional color space support
-- **Brand Compliance**: 95% brand guideline adherence
-- **User Satisfaction**: 4.8/5 average rating
+# Image Generation Agent
+*Professional Visual Content Creation*
 
 ---
 
-## Creative Workflow Visualization
+## What It Does
 
-![Image Generation Agent](../assets/imageagent.png)
+• **Creates professional images** from text descriptions
+• **Generates marketing materials** with brand consistency
+• **Produces infographics** and business visualizations
+• **Automates visual content** for presentations and reports
 
-*Vibrant creative workflow infographic demonstrating AI-powered image generation from natural language input through creative processing to professional visual assets, showcasing unlimited creative potential and brand consistency.*
+---
+
+## Key Capabilities
+
+### 🎨 **Creative Generation**
+• High-quality business graphics and illustrations
+• Marketing materials (banners, social media, ads)
+• Professional presentations and infographics
+• Custom logos and brand elements
+
+### 📊 **Data Visualization**
+• Charts, graphs, and business dashboards
+• Process diagrams and flowcharts
+• Organizational charts and timelines
+• Financial reports with visual elements
+
+### 🎯 **Brand Consistency**
+• Style guides and brand compliance
+• Color palette management
+• Typography and layout standards
+• Template-based generation
+
+---
+
+## Business Benefits
+
+• **Speed**: Generate visuals in seconds, not hours
+• **Cost**: Eliminate expensive design agency fees
+• **Consistency**: Maintain brand standards automatically
+• **Scale**: Create unlimited variations and formats
+
+---
+
+![Image Agent](assets/imageagent.png)
+*AI-powered visual content creation workflow from concept to delivery*
+
+---
+
+## Technical Details
+
+• **Framework**: CrewAI (Google-powered)
+• **Port**: 10001
+• **Models**: Imagen 3 for image generation
+• **Output**: High-resolution PNG/JPG formats
 
 ---
 
 ## Image Generation Prompt
-
-**Prompt for Infographic:**
 ```
-Create a vibrant, artistic infographic with a dynamic gradient background transitioning from deep purple (#7c3aed) on the left to bright pink (#ec4899) on the right. Image should be landscape orientation (16:9) for creative presentations.
+Create a professional creative workflow diagram titled "IMAGE GENERATION AGENT" in 16:9 landscape format. Use a modern color scheme with #1E3A8A blue, #10B981 green, #F59E0B amber, and #FFFFFF white.
 
-TITLE: At the top, render "🎨 IMAGE GENERATION AGENT" in large, bold white text with a subtle glow effect. Below it, add "Powered by CrewAI" in smaller white text with purple accent.
+TOP SECTION:
+- Title: "IMAGE GENERATION AGENT"
+- Subtitle: "Professional Visual Content Creation"
+- "Powered by CrewAI + Google Imagen 3"
 
-WORKFLOW (Left to Right):
-1. INPUT SECTION (Left): 
-   - Show a speech bubble containing the exact text: "Create a modern office with diverse team"
-   - Add a human silhouette icon next to it
-   - Label: "Natural Language Input"
+MAIN WORKFLOW (left to right):
+Step 1 - "TEXT INPUT":
+- Text bubble icon with sample text:
+  "Create a professional business infographic showing quarterly sales growth"
+- Keyboard/input icon
+- "Natural Language Prompts"
 
-2. AI PROCESSING (Center):
-   - Create a stylized AI brain with colorful neural network patterns
-   - Show flowing data streams in rainbow colors connecting input to brain
-   - Add swirling, magical sparkles around the brain
-   - Include floating creative tools: paint brush, color palette, pencil, design ruler
-   - Label: "AI Creative Processing"
+Step 2 - "AI PROCESSING":
+- Brain/AI icon with creative symbols (palette, brush, gears)
+- Text: "Imagen 3 Generation"
+- "Style Analysis"
+- "Brand Compliance"
+- "Quality Enhancement"
 
-3. OUTPUT SECTION (Right):
-   - Display 4-6 small generated image thumbnails floating out:
-     * Modern office interior
-     * Diverse business team
-     * Marketing graphics
-     * Product mockups
-     * Social media posts
-   - Show these images with subtle drop shadows and slight rotation
-   - Label: "Generated Visual Assets"
+Step 3 - "VISUAL OUTPUT":
+- Gallery of sample outputs:
+  - Business chart/infographic
+  - Marketing banner
+  - Presentation slide
+  - Social media graphic
+- "High Resolution • Multiple Formats"
 
-FEATURE HIGHLIGHTS: Around the workflow, add these capability badges:
-- 💡 "Creative Intelligence" (top left)
-- ⚡ "10-30 Second Generation" (top right)  
-- 💎 "4K Quality Output" (bottom left)
-- 🎯 "Brand Consistency" (bottom right)
+Step 4 - "DELIVERY":
+- Download/share icons
+- Text: "Instant Delivery"
+- "PNG • JPG • SVG"
+- "Web Ready • Print Ready"
 
-CREATIVE ELEMENTS: Scatter these artistic elements throughout:
-- Floating paint drops in various colors
-- Sparkles and stars
-- Color swatches
-- Design grid lines
-- Bezier curve handles
-- Typography samples
+BOTTOM FEATURES:
+- "Brand Consistency • Template Library • Batch Generation"
+- "Marketing Materials • Data Visualization • Custom Graphics"
 
-STYLE SHOWCASE: In the bottom section, show 4 style examples:
-- "Corporate" (clean, professional imagery)
-- "Creative" (artistic, innovative visuals)  
-- "Technical" (diagrams, schematics)
-- "Marketing" (engaging, brand-focused)
+Include creative elements like color palettes, design tools, and sample visuals.
+```
 
-BOTTOM TAGLINE: Include "Transform Ideas into Visual Reality • Unlimited Creative Potential" in white text.
+---
 
-Typography: Use modern, creative fonts (similar to Poppins or Montserrat). Ensure all text is clearly readable against the colorful background. Apply subtle glow effects and shadows to enhance the magical, creative atmosphere while maintaining professional quality.
-``` 
+## Example Use Cases
+
+### 📈 **Business Presentations**
+*"Create a slide showing our Q4 revenue growth"*
+• Generates professional charts and graphs
+• Applies company branding automatically
+• Optimizes for presentation format
+
+### 📱 **Social Media Content**
+*"Make an Instagram post about our new product launch"*
+• Creates platform-specific dimensions
+• Includes engaging visual elements
+• Maintains brand consistency
+
+### 📊 **Marketing Materials**
+*"Design a banner for our trade show booth"*
+• Professional marketing graphics
+• High-resolution print quality
+• Brand-compliant design elements
+
+---
+
+**Next:** [Expense Agent →](expense-agent.md)
+
+---
+
+## Navigation
+- [← Back to Currency Agent](currency-agent.md)
+- [Expense Agent →](expense-agent.md)
+- [YouTube Agent →](youtube-agent.md)
+- [Travel Agent →](travel-agent.md)
+- [Contact Agent →](contact-agent.md)
+- [Data Agent →](data-agent.md)
+- [← Back to System Overview](../02-our-multi-agent-system.md) 

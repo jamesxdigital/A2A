@@ -1,134 +1,128 @@
-# Our Multi-Agent AI Ecosystem
-
-## System Overview
-
-We've built a **complete enterprise AI ecosystem** with 7 specialized agents working together seamlessly. This isn't just a demo—it's a production-ready system that showcases the future of business automation.
-
-## Architecture Highlights
-
-### 🏗️ Multi-Vendor Approach
-- **Google AI**: Gemini models for advanced reasoning
-- **OpenAI**: GPT models for creative and analytical tasks  
-- **Microsoft**: Semantic Kernel for enterprise integration
-- **MindsDB**: Enterprise data intelligence platform
-
-### 🔄 Agent-to-Agent Communication
-- **A2A Protocol**: Universal communication standard
-- **Real-time Coordination**: Agents collaborate automatically
-- **Smart Routing**: Tasks go to the most capable agent
-- **Fault Tolerance**: System continues if individual agents fail
-
-## Our 7-Agent Team
-
-| Agent | Specialty | AI Provider | Port |
-|-------|-----------|-------------|------|
-| 💱 **Currency Agent** | Exchange rates & conversions | Google (LangGraph) | 10000 |
-| 🎨 **Image Agent** | Creative content generation | Google (CrewAI) | 10001 |
-| 💰 **Expense Agent** | Financial processing | Google (ADK) | 10002 |
-| 📺 **YouTube Agent** | Video content analysis | OpenAI (AG2) | 10010 |
-| ✈️ **Travel Agent** | Trip planning & logistics | OpenAI (Semantic Kernel) | 10020 |
-| 👥 **Contact Agent** | Data extraction & management | OpenAI (Marvin) | 10030 |
-| 📊 **Data Agent** | Enterprise analytics | MindsDB | 10006 |
-
-## Key Capabilities
-
-### 🤖 Autonomous Operation
-- **One-click deployment**: `./start_all_agents.sh`
-- **Self-registration**: Agents automatically join the system
-- **Health monitoring**: Continuous system status checking
-- **Auto-recovery**: Intelligent error handling and retry logic
-
-### 🔗 Seamless Integration
-- **Universal API**: All agents speak the same protocol
-- **Cross-vendor compatibility**: No vendor lock-in
-- **Scalable architecture**: Easy to add new agents
-- **Enterprise security**: Built-in authentication and authorization
-
-### 📈 Business Value
-
-**Immediate Benefits:**
-- ⚡ **Speed**: Complex workflows in minutes, not hours
-- 💰 **Cost Savings**: Eliminate manual processing overhead
-- 🎯 **Accuracy**: Consistent, error-free execution
-- 📊 **Insights**: Real-time business intelligence
-
-**Strategic Advantages:**
-- 🚀 **Innovation**: Rapid deployment of new capabilities
-- 🔄 **Flexibility**: Adapt to changing business needs
-- 📈 **Scalability**: Handle growing workloads automatically
-- 🏆 **Competitive Edge**: Advanced AI capabilities
-
-## Real-World Use Cases
-
-### 💼 Executive Expense Management
-**Scenario**: "I took a £45 taxi in London, but our system needs USD"
-- Currency Agent converts £45 to USD
-- Expense Agent processes the reimbursement
-- Data Agent updates financial records
-- **Result**: Complete expense report in seconds
-
-### 📊 Business Intelligence
-**Scenario**: "What's our sales pipeline looking like?"
-- Data Agent queries enterprise databases
-- Image Agent creates visual dashboards
-- Contact Agent identifies key prospects
-- **Result**: Executive-ready presentation
-
-### 🌍 International Expansion
-**Scenario**: "Should we expand to Germany?"
-- Data Agent analyzes German market data
-- Currency Agent handles EUR projections
-- Travel Agent plans market research trips
-- **Result**: Complete expansion strategy
+# Our Multi-Agent System
+*7 Specialized Agents Working Together*
 
 ---
 
-## System Architecture
+## System Overview
 
-![Multi-Agent AI Ecosystem](assets/ourmultiagentsystem.png)
+• **7 Specialized Agents** each mastering different business functions
+• **One-Click Deployment** with automated setup and registration
+• **Cross-Platform Integration** (Google, OpenAI, Microsoft, MindsDB)
+• **Real-Time Collaboration** through A2A protocol
 
-*Sophisticated network diagram showcasing our 7-agent ecosystem with the A2A protocol at its core, demonstrating enterprise-ready multi-vendor AI collaboration.*
+---
+
+## The Agent Team
+
+### 🌍 **Currency Agent** (LangGraph + Google)
+• Real-time exchange rates and conversions
+• Multi-currency calculations
+• Financial compliance checks
+
+### 🎨 **Image Generation Agent** (CrewAI + Google)
+• Professional visual content creation
+• Brand-consistent graphics
+• Marketing materials automation
+
+### 💰 **Expense Agent** (Google ADK)
+• Automated expense processing
+• Receipt analysis and categorization
+• Policy compliance validation
+
+### 📺 **YouTube Analysis Agent** (AG2 + OpenAI)
+• Video content analysis
+• Transcript processing
+• Engagement metrics insights
+
+### ✈️ **Travel Planning Agent** (Semantic Kernel + OpenAI)
+• Complete trip planning
+• Budget optimization
+• Itinerary management
+
+### 👥 **Contact Extraction Agent** (Marvin + OpenAI)
+• Business card processing
+• Contact data organization
+• CRM integration
+
+### 📊 **Enterprise Data Agent** (MindsDB)
+• Natural language database queries
+• Business intelligence insights
+• Real-time analytics
+
+---
+
+## How They Work Together
+
+• **Seamless Communication**: Agents share data automatically
+• **Workflow Orchestration**: Complex tasks split across multiple agents
+• **Error Handling**: If one agent fails, others adapt
+• **Scalable Architecture**: Easy to add new agents
+
+---
+
+![Multi-Agent System](assets/ourmultiagentsystem.png)
+*Our complete 7-agent ecosystem working in harmony*
 
 ---
 
 ## Image Generation Prompt
-
-**Prompt for Infographic:**
 ```
-Create a sophisticated enterprise-grade network diagram on a dark navy background (#0f172a) with a futuristic, professional aesthetic. Image should be landscape orientation (16:9) suitable for executive presentations.
+Create a professional business diagram titled "OUR MULTI-AGENT ECOSYSTEM" in 16:9 landscape format. Use a modern color scheme with #1E3A8A blue, #10B981 green, #F59E0B amber, and #FFFFFF white.
 
-TITLE: At the top, render "MULTI-AGENT AI ECOSYSTEM" in large, bold, white text with subtle blue glow effect. Below it, add "7 Specialized Agents • Universal A2A Protocol • Enterprise Ready" in smaller white text.
+TOP SECTION:
+- Title: "OUR MULTI-AGENT ECOSYSTEM"
+- Subtitle: "7 Specialized Agents • Seamless Collaboration • Enterprise Ready"
 
-CENTRAL HUB: In the exact center, create a large hexagonal node with the text "A2A PROTOCOL" in bold white letters. This hub should have a bright blue glow (#3b82f6) and subtle pulsing animation lines radiating outward.
+MAIN DIAGRAM:
+Create a circular hub-and-spoke layout with:
 
-AGENT NODES: Arrange exactly 7 hexagonal agent nodes in a perfect circle around the central hub. Each node should be clearly labeled with both icon and text:
+CENTER HUB:
+- "A2A PROTOCOL" in a large hexagon
+- "Agent-to-Agent Communication"
+- Connecting lines radiating to all agents
 
-1. "💱 CURRENCY AGENT" - Gold color (#fbbf24) with "LangGraph" subtitle
-2. "🎨 IMAGE AGENT" - Purple color (#a855f7) with "CrewAI" subtitle  
-3. "💰 EXPENSE AGENT" - Green color (#10b981) with "Google ADK" subtitle
-4. "📺 YOUTUBE AGENT" - Red color (#ef4444) with "AG2" subtitle
-5. "✈️ TRAVEL AGENT" - Blue color (#3b82f6) with "Semantic Kernel" subtitle
-6. "👥 CONTACT AGENT" - Orange color (#f97316) with "Marvin" subtitle
-7. "📊 DATA AGENT" - Teal color (#14b8a6) with "MindsDB" subtitle
+AGENT NODES (arranged in circle):
+1. "CURRENCY AGENT" (🌍 icon) - "Real-time Exchange Rates"
+2. "IMAGE AGENT" (🎨 icon) - "Visual Content Creation" 
+3. "EXPENSE AGENT" (💰 icon) - "Automated Processing"
+4. "YOUTUBE AGENT" (📺 icon) - "Video Analysis"
+5. "TRAVEL AGENT" (✈️ icon) - "Trip Planning"
+6. "CONTACT AGENT" (👥 icon) - "Data Extraction"
+7. "DATA AGENT" (📊 icon) - "Business Intelligence"
 
-CONNECTIONS: Draw elegant, curved data streams connecting each agent to the central hub and to each other, creating a web-like network. Use flowing lines with directional arrows and subtle glow effects in white/blue.
+TECHNOLOGY BADGES:
+Show small tech logos near each agent:
+- LangGraph, CrewAI, Google ADK, AG2, Semantic Kernel, Marvin, MindsDB
+- Google, OpenAI, Microsoft logos
 
-VENDOR LOGOS: In the four corners, subtly place small, semi-transparent logos:
-- Top left: "Google" text in Google colors
-- Top right: "OpenAI" text in black
-- Bottom left: "Microsoft" text in blue
-- Bottom right: "MindsDB" text in green
+BOTTOM SECTION:
+- "One-Click Deployment • Cross-Platform • Real-Time Collaboration"
+- Performance metrics: "7 Agents • 8 Ports • 24/7 Uptime"
 
-FLOATING ELEMENTS: Around the network, add these floating icons with subtle glow:
-- Dollar signs ($) near Currency Agent
-- Image/photo icons near Image Agent  
-- Receipt/document icons near Expense Agent
-- Play button/video icons near YouTube Agent
-- Airplane/globe icons near Travel Agent
-- Contact/people icons near Contact Agent
-- Chart/graph icons near Data Agent
+Use clean lines, professional icons, and ensure all text is clearly readable.
+```
 
-BOTTOM TEXT: At the bottom, include "Production-Ready • Multi-Vendor • Scalable Architecture" in smaller white text.
+---
 
-Typography: Use modern, clean sans-serif fonts (similar to Inter or Roboto). Ensure all text is crisp and readable against the dark background. Apply subtle glow effects to enhance the futuristic appearance while maintaining professional credibility.
-``` 
+## Technical Architecture
+
+• **Ports**: Each agent runs on dedicated port (10000-10030)
+• **Health Monitoring**: Automatic status checking
+• **Load Balancing**: Distribute work across available agents
+• **Logging**: Complete audit trail of all interactions
+
+---
+
+**Next:** [Contact Agent Details →](agents/contact-agent.md)
+
+---
+
+## Navigation
+- [← Back to Agents Overview](01-agents-overview.md)
+- [Contact Agent →](agents/contact-agent.md)
+- [Currency Agent →](agents/currency-agent.md)
+- [Image Agent →](agents/image-agent.md)
+- [Expense Agent →](agents/expense-agent.md)
+- [YouTube Agent →](agents/youtube-agent.md)
+- [Travel Agent →](agents/travel-agent.md)
+- [Data Agent →](agents/data-agent.md) 
