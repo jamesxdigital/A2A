@@ -43,7 +43,7 @@
 
 ---
 
-![Travel Agent](assets/travelplanningagent.png)
+![Travel Agent](../assets/travelplanningagent.png)
 *End-to-end travel planning from requirements to optimized itinerary*
 
 ---

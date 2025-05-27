@@ -43,7 +43,7 @@
 
 ---
 
-![Currency Agent](assets/currencyagent.png)
+![Currency Agent](../assets/currencyagent.png)
 *Real-time currency conversion and financial intelligence workflow*
 
 ---

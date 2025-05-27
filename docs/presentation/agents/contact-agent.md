@@ -43,7 +43,7 @@
 
 ---
 
-![Contact Agent](assets/contactagent.png)
+![Contact Agent](../assets/contactagent.png)
 *Automated contact processing workflow from input to CRM integration*
 
 ---

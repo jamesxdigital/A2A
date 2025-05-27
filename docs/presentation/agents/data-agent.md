@@ -43,7 +43,7 @@
 
 ---
 
-![Data Agent](assets/dataagent.png)
+![Data Agent](../assets/dataagent.png)
 *Natural language to business intelligence transformation workflow*
 
 ---

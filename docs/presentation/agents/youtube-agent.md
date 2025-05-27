@@ -43,7 +43,7 @@
 
 ---
 
-![YouTube Agent](assets/youtubeagent.png)
+![YouTube Agent](../assets/youtubeagent.png)
 *Comprehensive video content analysis and intelligence platform*
 
 ---

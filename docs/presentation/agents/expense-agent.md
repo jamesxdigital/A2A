@@ -43,7 +43,7 @@
 
 ---
 
-![Expense Agent](assets/expenenseagent.png)
+![Expense Agent](../assets/expenenseagent.png)
 *End-to-end expense processing from receipt capture to reimbursement*
 
 ---

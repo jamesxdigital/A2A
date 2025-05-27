@@ -43,7 +43,7 @@
 
 ---
 
-![Image Agent](assets/imageagent.png)
+![Image Agent](../assets/imageagent.png)
 *AI-powered visual content creation workflow from concept to delivery*
 
 ---
