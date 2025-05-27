@@ -26,7 +26,7 @@ I just returned from a business trip to London. I have several expenses to proce
 3. Hotel stay for 2 nights: £320
 4. Return taxi to airport: £38
 
-Please process these expenses, convert to USD, categorize them properly, and update our financial records. Also extract the client contact information from the dinner receipt.
+Please process these expenses, convert to USD, categorize them properly, and update our financial records. Also identify and organize the client contact information from TechCorp for follow-up.
 ```
 
 ---
